@@ -11,7 +11,6 @@ import SwiftUI
 struct LandmarkRow: View {
     var landmark: Landmark
 
-
     var body: some View {
         HStack {
             landmark.image
@@ -26,5 +25,10 @@ struct LandmarkRow: View {
 
 
 #Preview {
-    LandmarkRow(landmark: landmarks[0])
+    Group {
+        LandmarkRow(landmark: landmarks[0])
+        LandmarkRow(landmark: landmarks[1])
+    }
 }
+
+
