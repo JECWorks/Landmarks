@@ -7,14 +7,12 @@
 
 import CoreGraphics
 
-
 struct HexagonParameters {
     struct Segment {
         let line: CGPoint
         let curve: CGPoint
         let control: CGPoint
     }
-
 
     static let adjustment: CGFloat = 0.085
 
