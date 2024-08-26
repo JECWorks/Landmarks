@@ -31,6 +31,7 @@
 		A93093002C2E509600180323 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93092FF2C2E509600180323 /* LandmarkDetail.swift */; };
 		A93093022C38E3C100180323 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93093012C38E3C100180323 /* FavoriteButton.swift */; };
 		A93093062C3B761100180323 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93093052C3B761100180323 /* HexagonParameters.swift */; };
+		A9CD33702C7C0DA50052DCF9 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD336F2C7C0DA50052DCF9 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		A93092FF2C2E509600180323 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		A93093012C38E3C100180323 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		A93093052C3B761100180323 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		A9CD336F2C7C0DA50052DCF9 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		A93092F82C2A3D9300180323 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9CD336E2C7C0D890052DCF9 /* Categories */,
 				A90D855C2C4DFDB100965E76 /* Hikes */,
 				A93092E22C265F4D00180323 /* ContentView.swift */,
 				A93093032C38E4B500180323 /* Helper */,
@@ -181,6 +184,14 @@
 				A93092FF2C2E509600180323 /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		A9CD336E2C7C0D890052DCF9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD336F2C7C0DA50052DCF9 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93092E32C265F4D00180323 /* ContentView.swift in Sources */,
+				A9CD33702C7C0DA50052DCF9 /* CategoryHome.swift in Sources */,
 				A910E2662C4B51DA00819B9C /* Badge.swift in Sources */,
 				A93092F12C29054500180323 /* MapView.swift in Sources */,
 				A90D855D2C4DFDB100965E76 /* GraphCapsule.swift in Sources */,
