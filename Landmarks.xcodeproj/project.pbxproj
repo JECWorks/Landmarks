@@ -34,6 +34,9 @@
 		A9CD33702C7C0DA50052DCF9 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD336F2C7C0DA50052DCF9 /* CategoryHome.swift */; };
 		A9CD338C2C82ABBB0052DCF9 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD338B2C82ABBB0052DCF9 /* CategoryRow.swift */; };
 		A9CD338E2C82AD8F0052DCF9 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD338D2C82AD8F0052DCF9 /* CategoryItem.swift */; };
+		A9CD33AA2C8BE9EE0052DCF9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD33A92C8BE9EE0052DCF9 /* Profile.swift */; };
+		A9CD33AD2C8BEA5F0052DCF9 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD33AC2C8BEA5F0052DCF9 /* ProfileHost.swift */; };
+		A9CD33AF2C8BEAF40052DCF9 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD33AE2C8BEAF40052DCF9 /* ProfileSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		A9CD336F2C7C0DA50052DCF9 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		A9CD338B2C82ABBB0052DCF9 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		A9CD338D2C82AD8F0052DCF9 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		A9CD33A92C8BE9EE0052DCF9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A9CD33AC2C8BEA5F0052DCF9 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		A9CD33AE2C8BEAF40052DCF9 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,7 @@
 		A93092F82C2A3D9300180323 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9CD33AB2C8BEA320052DCF9 /* Profiles */,
 				A9CD336E2C7C0D890052DCF9 /* Categories */,
 				A90D855C2C4DFDB100965E76 /* Hikes */,
 				A93092E22C265F4D00180323 /* ContentView.swift */,
@@ -166,6 +173,7 @@
 				A93092F42C2A352600180323 /* Landmark.swift */,
 				A93092F62C2A3C5C00180323 /* ModelData.swift */,
 				A90D85562C4DFC9900965E76 /* Hike.swift */,
+				A9CD33A92C8BE9EE0052DCF9 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +206,15 @@
 				A9CD338D2C82AD8F0052DCF9 /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		A9CD33AB2C8BEA320052DCF9 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD33AC2C8BEA5F0052DCF9 /* ProfileHost.swift */,
+				A9CD33AE2C8BEAF40052DCF9 /* ProfileSummary.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9CD338C2C82ABBB0052DCF9 /* CategoryRow.swift in Sources */,
+				A9CD33AA2C8BE9EE0052DCF9 /* Profile.swift in Sources */,
 				A93092E32C265F4D00180323 /* ContentView.swift in Sources */,
 				A9CD33702C7C0DA50052DCF9 /* CategoryHome.swift in Sources */,
 				A910E2662C4B51DA00819B9C /* Badge.swift in Sources */,
@@ -283,7 +301,9 @@
 				A93093022C38E3C100180323 /* FavoriteButton.swift in Sources */,
 				A9CD338E2C82AD8F0052DCF9 /* CategoryItem.swift in Sources */,
 				A93093062C3B761100180323 /* HexagonParameters.swift in Sources */,
+				A9CD33AF2C8BEAF40052DCF9 /* ProfileSummary.swift in Sources */,
 				A90D85572C4DFC9900965E76 /* Hike.swift in Sources */,
+				A9CD33AD2C8BEA5F0052DCF9 /* ProfileHost.swift in Sources */,
 				A910E24A2C460D8F00819B9C /* RotatedBadgeSymbol.swift in Sources */,
 				A910E2482C4609B200819B9C /* BadgeSymbol.swift in Sources */,
 				A93092FE2C2D029D00180323 /* LandmarkList.swift in Sources */,
