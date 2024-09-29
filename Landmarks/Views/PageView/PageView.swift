@@ -10,22 +10,14 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     var pages: [Page]
-    @State private var currentPage = 1
+    @State private var currentPage = 0
 
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(pages: pages, currentPage: $currentPage)
-                
-            Text("Current Page: \(currentPage)")
-            //        Button {
-            //            if currentPage < 2 {
-            //                currentPage += 1
-            //            } else {
-            //                currentPage = 0
-            //            }
-            //        } label: {
-            //            Text("Next Park")
-            //        }
+            PageControl(numberOfPages: pages.count, currentPage: $currentPage)
+                .frame(width: CGFloat(pages.count * 18))
+                .padding(.trailing)
         }
         .aspectRatio(3 / 2, contentMode: .fit)
     }
