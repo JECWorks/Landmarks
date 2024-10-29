@@ -137,6 +137,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A92465E52CD07B3100B37E37 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarkCommands.swift,
+			);
+			target = A93092DC2C265F4D00180323 /* Landmarks */;
+		};
 		A959FB522CC3559400A0A5AB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -148,7 +155,7 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A959FAD42CAB91E900A0A5AB /* WatchLandmarks Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A959FB522CC3559400A0A5AB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "WatchLandmarks Watch App"; sourceTree = "<group>"; };
-		A959FB372CC3544200A0A5AB /* MacLandmarks */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MacLandmarks; sourceTree = "<group>"; };
+		A959FB372CC3544200A0A5AB /* MacLandmarks */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A92465E52CD07B3100B37E37 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = MacLandmarks; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
